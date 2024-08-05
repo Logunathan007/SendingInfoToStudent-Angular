@@ -1,0 +1,15 @@
+<!-- info: FormGroup = new FormGroup({
+    name : new FormControl('',Validators.required),
+    fatherName : new FormControl('',Validators.required),
+    email : new FormControl('',Validators.required),
+    phoneNumber : new FormControl('',Validators.required),
+    city : new FormControl('',Validators.required)
+  }) -->
+
+<div class="card card-style" *ngFor="let data of datas;">
+    <div>Name : {{this.data.name}}</div>
+    <div>Father's Name : {{this.data.fatherName}}</div>
+    <div>Email : {{this.data.email}}</div>
+    <div>PhoneNumber : {{this.data.phoneNumber}}</div>
+    <div>City : {{this.data.city}}</div>
+</div>
